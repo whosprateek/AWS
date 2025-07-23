@@ -1,6 +1,6 @@
 import server from "./app.js";
-import { PORT } from "./solution.js";
 
-server.listen(PORT, () => {
-  console.log(`server is running on ${process.env.PORT}`);
+
+server.listen(3000, () => {
+  console.log(`server is running on 3000`);
 });
